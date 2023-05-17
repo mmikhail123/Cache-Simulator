@@ -151,10 +151,7 @@ int main(int argc, char *argv[]){
         globalAge++;
         int setValue = (address >> blockBits) & (unsigned long)(pow(2,setBits) - 1); //gets setvalue 
         unsigned long tagValue = (address >> (blockBits+setBits)) & (unsigned long)(pow(2, tagBits) - 1); //gets tag value
-        //printf("setval: %d tagvalue: %ld\n", setValue, tagValue);
-
-        //DONT FORGET TO INCREMEMNT GLOBAL AGE SOMEWHERE
-        
+               
         checkH = checkHit(cache,tagValue, setValue);
         //printf("checkh: %d", checkH);
         checkdegree = degree(cache, setValue);
