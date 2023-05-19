@@ -15,11 +15,11 @@ To run, input the following into terminal:
 ./L1cache <cachesize><assoc:n><cache policy><block size><trace file>
 ```
 where:
-• The parameter cache size is the total size of the cache in bytes. This number should be a
+- The parameter cache size is the total size of the cache in bytes. This number should be a
 power of 2
-• The parameter assoc:n specifies the associativity. Here, n is a number of cache lines in a set
-• The parameter cache policy specifies the cache replacement policy, which is either fifo or
+- The parameter assoc:n specifies the associativity. Here, n is a number of cache lines in a set
+- The parameter cache policy specifies the cache replacement policy, which is either fifo or
 lru
-• The parameter block size is a power of 2 that specifies the size of the cache block in bytes
-• The parameter trace file is the name of the trace file (a sample trace file is included)
+- The parameter block size is a power of 2 that specifies the size of the cache block in bytes
+- The parameter trace file is the name of the trace file (a sample trace file is included)
 
